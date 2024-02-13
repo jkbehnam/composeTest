@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">composeTest</string>
+    <string name="title_activity_stateitem">stateitem</string>
+    <string name="title_activity_string_style">StringStyle</string>
+    <string name="foundername">Behnam</string>
+    <string name="title_activity_card_test">cardTest</string>
+    <string name="title_activity_lazy_list_test">LazyListTest</string>
+    <string name="title_activity_scaffoldtest">scaffoldtest</string>
+    <string name="title_activity_bottom_bar_test">bottomBarTest</string>
+    <string name="title_activity_top_app_bar">topAppBar</string>
+    <string name="title_activity_nav_main_test">NavMainTest</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_show_data">ShowDataActivity</string>
+</resources>

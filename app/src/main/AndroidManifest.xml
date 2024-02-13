@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComposeTest"
+        tools:targetApi="31">
+        <activity
+            android:name=".navigationTest.ShowDataActivity"
+            android:exported="false"
+            android:label="@string/title_activity_show_data"
+            android:theme="@style/Theme.ComposeTest" />
+        <activity
+            android:name=".navigationTest.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.ComposeTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".navigationTest.NavMainTest"
+            android:exported="true"
+            android:label="@string/title_activity_nav_main_test"
+            android:theme="@style/Theme.ComposeTest"></activity>
+        <activity
+            android:name=".topAppBar"
+            android:exported="true"
+            android:label="@string/title_activity_top_app_bar"
+            android:theme="@style/Theme.ComposeTest" />
+        <activity
+            android:name=".bottomBarTest"
+            android:exported="true"
+            android:label="@string/title_activity_bottom_bar_test"
+            android:theme="@style/Theme.ComposeTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".scaffoldtest"
+            android:exported="true"
+            android:label="@string/title_activity_scaffoldtest"
+            android:theme="@style/Theme.ComposeTest" />
+        <activity
+            android:name=".LazyListTest"
+            android:exported="true"
+            android:label="@string/title_activity_lazy_list_test"
+            android:theme="@style/Theme.ComposeTest" />
+        <activity
+            android:name=".cardTest"
+            android:exported="true"
+            android:label="@string/title_activity_card_test"
+            android:theme="@style/Theme.ComposeTest" />
+        <activity
+            android:name=".LazyGridTest"
+            android:exported="true"
+            android:label="@string/title_activity_card_test"
+            android:theme="@style/Theme.ComposeTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StringStyle"
+            android:exported="true"
+            android:label="@string/title_activity_string_style"
+            android:theme="@style/Theme.ComposeTest" />
+        <activity
+            android:name=".stateitem"
+            android:exported="true"
+            android:label="@string/title_activity_stateitem"
+            android:theme="@style/Theme.ComposeTest" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeTest" />
+    </application>
+
+</manifest>
